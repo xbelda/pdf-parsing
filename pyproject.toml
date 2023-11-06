@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "pdf-parsing"
+version = "0.1.0"
+description = ""
+authors = ["Xavier Belda <xaviblx@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pdfminer-six = "^20221105"
+
+[tool.poetry.group.dev.dependencies]
+jupyterlab = "^4.0.8"
+ipywidgets = "^8.1.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
